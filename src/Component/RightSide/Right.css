@@ -1,0 +1,55 @@
+.rightDiv {
+  width: 65%;
+  padding: 3% 5%;
+  background-color: #b6f0f1;
+  border-radius: 25px;
+}
+.rightDiv .right_top {
+  padding: 10px 0;
+}
+.rightDiv .right_top .r_header {
+  display: flex;
+  justify-content: space-between;
+}
+.rightDiv .right_top .r_header .r_t_right {
+  display: flex;
+}
+.rightDiv .right_top .r_header .r_t_right img {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+}
+.rightDiv .right_top .r_header .r_t_right p {
+  margin-right: 25px;
+  margin-top: 5px;
+}
+.rightDiv .right_top .r_content {
+  margin-top: 70px;
+}
+.rightDiv .right_top .r_content .r_c_top {
+  display: flex;
+  justify-content: space-between;
+}
+.rightDiv .right_top .r_content .r_c_top h6 {
+  font-size: 12px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6784313725);
+  padding: 5px;
+  border-radius: 10px;
+}
+.rightDiv .right_top .r_content .r_c_top h6:nth-child(1) {
+  color: rgba(134, 133, 133, 0.8352941176);
+}
+.rightDiv .right_top .r_content .r_c_top h6 span {
+  height: 9px;
+  width: 12px;
+  display: inline-block;
+}
+.rightDiv .right_top .r_content .main_content {
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+}
+.rightDiv .right_bottom {
+  margin-top: 30px;
+}/*# sourceMappingURL=Right.css.map */

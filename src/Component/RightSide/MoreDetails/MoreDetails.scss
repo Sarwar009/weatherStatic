@@ -1,0 +1,50 @@
+.moreDetails {
+    .moreDetails_content {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+
+        .moreDetails_content_card {
+            padding: 20px;
+            width: 170px;
+            height: 110px;
+            background-color: #fff;
+            line-height: 30px;
+            border-radius: 35px;
+
+            .line {
+                height: 7px;
+                width: 100%;
+                background: #bebcbc;
+                border-radius: 10px;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                    background: rgb(53, 159, 221);
+                    border-radius: 10px;
+                }
+            }
+
+            .good::before {
+                width: 100%;
+            }
+            .normal::before {
+                width: 100%;
+            }
+            .bad::before {
+                width: 40%;
+            }
+            .seventy::before {
+                width: 70%;
+            }
+            .forty::before {
+                width: 40%;
+            }
+        }
+    }
+}

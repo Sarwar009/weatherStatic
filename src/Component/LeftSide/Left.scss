@@ -1,0 +1,100 @@
+.leftDiv {
+    width: 35%;
+    padding-right: 20px;
+    color: #fff;
+    padding: 3% 5%;
+
+    .left_header {
+        display: flex;
+        justify-content: space-between;
+
+        .faPlusIcon {
+            padding: 5px;
+            background-color: #fff;
+            color: #000;
+            border-radius: 25%;
+            cursor: pointer;
+        }
+
+        .head_middle {
+            margin-top: -4px;
+            display: flex;
+
+            .dash {
+                font-size: 23px;
+                color: #fff;
+            }
+
+            .circle {
+                // display: inline-block;
+                margin-left: 5px;
+                margin-top: 10px;
+                width: 8px;
+                color: #fff;
+            }
+        }
+
+        .head_right {
+            display: flex;
+
+            p {
+                padding-top: 2px;
+            }
+
+            .toggleIcon {
+                margin: 0px 4px;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .left_content {
+        margin-top: 100px;
+
+        .content_header {
+            display: flex;
+            justify-content: space-between;
+
+            .c_h_left h3 {
+                font-size: 30px;
+
+                span {
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        .content_main {
+            margin-top: 70px;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+
+            .weather {
+                font-size: 100px;
+                width: fit-content;
+
+                span {
+                    font-size: 30px;
+                    position: absolute;
+                    top: 22px;
+                }
+            }
+
+            .weather_pre, .weather_next {
+                padding-top: 61px;
+                color: #fff;
+            }
+        }
+
+        .sunny {
+            text-align: center;
+            font-size: 30px;
+
+            .sunny_icon {
+                font-size: 15px;
+            }
+        }
+    }
+}

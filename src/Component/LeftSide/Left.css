@@ -1,0 +1,81 @@
+.leftDiv {
+  width: 35%;
+  padding-right: 20px;
+  color: #fff;
+  padding: 3% 5%;
+}
+.leftDiv .left_header {
+  display: flex;
+  justify-content: space-between;
+}
+.leftDiv .left_header .faPlusIcon {
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 25%;
+  cursor: pointer;
+}
+.leftDiv .left_header .head_middle {
+  margin-top: -4px;
+  display: flex;
+}
+.leftDiv .left_header .head_middle .dash {
+  font-size: 23px;
+  color: #fff;
+}
+.leftDiv .left_header .head_middle .circle {
+  margin-left: 5px;
+  margin-top: 10px;
+  width: 8px;
+  color: #fff;
+}
+.leftDiv .left_header .head_right {
+  display: flex;
+}
+.leftDiv .left_header .head_right p {
+  padding-top: 2px;
+}
+.leftDiv .left_header .head_right .toggleIcon {
+  margin: 0px 4px;
+  font-size: 25px;
+}
+.leftDiv .left_content {
+  margin-top: 100px;
+}
+.leftDiv .left_content .content_header {
+  display: flex;
+  justify-content: space-between;
+}
+.leftDiv .left_content .content_header .c_h_left h3 {
+  font-size: 30px;
+}
+.leftDiv .left_content .content_header .c_h_left h3 span {
+  font-size: 20px;
+}
+.leftDiv .left_content .content_main {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.leftDiv .left_content .content_main .weather {
+  font-size: 100px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.leftDiv .left_content .content_main .weather span {
+  font-size: 30px;
+  position: absolute;
+  top: 22px;
+}
+.leftDiv .left_content .content_main .weather_pre, .leftDiv .left_content .content_main .weather_next {
+  padding-top: 61px;
+  color: #fff;
+}
+.leftDiv .left_content .sunny {
+  text-align: center;
+  font-size: 30px;
+}
+.leftDiv .left_content .sunny .sunny_icon {
+  font-size: 15px;
+}/*# sourceMappingURL=Left.css.map */

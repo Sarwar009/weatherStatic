@@ -1,0 +1,44 @@
+.moreDetails .moreDetails_content {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.moreDetails .moreDetails_content .moreDetails_content_card {
+  padding: 20px;
+  width: 170px;
+  height: 110px;
+  background-color: #fff;
+  line-height: 30px;
+  border-radius: 35px;
+}
+.moreDetails .moreDetails_content .moreDetails_content_card .line {
+  height: 7px;
+  width: 100%;
+  background: #bebcbc;
+  border-radius: 10px;
+  position: relative;
+}
+.moreDetails .moreDetails_content .moreDetails_content_card .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(53, 159, 221);
+  border-radius: 10px;
+}
+.moreDetails .moreDetails_content .moreDetails_content_card .good::before {
+  width: 100%;
+}
+.moreDetails .moreDetails_content .moreDetails_content_card .normal::before {
+  width: 100%;
+}
+.moreDetails .moreDetails_content .moreDetails_content_card .bad::before {
+  width: 40%;
+}
+.moreDetails .moreDetails_content .moreDetails_content_card .seventy::before {
+  width: 70%;
+}
+.moreDetails .moreDetails_content .moreDetails_content_card .forty::before {
+  width: 40%;
+}/*# sourceMappingURL=MoreDetails.css.map */
