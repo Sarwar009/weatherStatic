@@ -98,3 +98,16 @@
         }
     }
 }
+
+
+/* ____________MEDIA QUERIES____________ */
+
+
+
+/* SMALL DEVICE MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+    .leftDiv {
+        width: auto;
+    }
+  }

@@ -78,4 +78,12 @@
 }
 .leftDiv .left_content .sunny .sunny_icon {
   font-size: 15px;
+}
+
+/* ____________MEDIA QUERIES____________ */
+/* SMALL DEVICE MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .leftDiv {
+    width: auto;
+  }
 }/*# sourceMappingURL=Left.css.map */

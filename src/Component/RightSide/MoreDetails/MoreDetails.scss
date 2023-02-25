@@ -11,6 +11,7 @@
             background-color: #fff;
             line-height: 30px;
             border-radius: 35px;
+            margin: 0 10px;
 
             .line {
                 height: 7px;
@@ -48,3 +49,20 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .moreDetails {
+        .moreDetails_content {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .mt0 {
+            margin-top: 0;
+        }
+    
+        .moreDetails_content_card {
+            margin-top: 30px;
+        }
+    }
+  }

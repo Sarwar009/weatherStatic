@@ -132,7 +132,7 @@ export default function MoreDetails() {
 
 
 
-            <div className='moreDetails_content'>
+            <div className='moreDetails_content mt0'>
 
                 <div className='moreDetails_content_card'>
                     <div style={{ display: 'flex', justifyContent: 'space-between' }}>

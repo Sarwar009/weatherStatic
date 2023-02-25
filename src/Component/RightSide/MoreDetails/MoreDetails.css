@@ -10,6 +10,7 @@
   background-color: #fff;
   line-height: 30px;
   border-radius: 35px;
+  margin: 0 10px;
 }
 .moreDetails .moreDetails_content .moreDetails_content_card .line {
   height: 7px;
@@ -41,4 +42,17 @@
 }
 .moreDetails .moreDetails_content .moreDetails_content_card .forty::before {
   width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .moreDetails .moreDetails_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .moreDetails .mt0 {
+    margin-top: 0;
+  }
+  .moreDetails .moreDetails_content_card {
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=MoreDetails.css.map */

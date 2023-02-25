@@ -52,4 +52,12 @@
 }
 .rightDiv .right_bottom {
   margin-top: 30px;
+}
+
+/* ____________MEDIA QUERIES____________ */
+/* SMALL DEVICE MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .rightDiv {
+    width: auto;
+  }
 }/*# sourceMappingURL=Right.css.map */
